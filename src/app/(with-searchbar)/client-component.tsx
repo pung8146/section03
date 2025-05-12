@@ -1,5 +1,7 @@
 "use client";
 
+import ServerComponent from "./server-component";
+
 export default function ClientComponent() {
-  return <div>ClientComponent</div>;
+  return <ServerComponent />;
 }
